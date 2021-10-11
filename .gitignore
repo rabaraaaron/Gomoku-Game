@@ -1,0 +1,20 @@
+# Gradle's build directory
+build/
+
+# Gradle's local cache
+.gradle/
+
+# IntelliJ's output directory
+out/
+
+# Ignore all IntelliJ configuration
+.idea/
+*.iml
+
+# Other useful things to ignore
+.DS_Store
+*.class
+a.out
+*.exe
+*.dll
+*~

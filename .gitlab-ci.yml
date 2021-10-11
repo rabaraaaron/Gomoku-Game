@@ -1,0 +1,22 @@
+image: openjdk:11
+
+variables:
+  GRADLE_USER_HOME: .gradle-cache
+
+stages:
+  - build
+  - test
+
+cache:
+  paths:
+    - .gradle-cache
+
+build:
+  stage: build
+  script:
+    - bash gradlew assemble
+
+test:
+  stage: test
+  script:
+    - bash gradlew test
