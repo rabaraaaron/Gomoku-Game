@@ -1,4 +1,12 @@
-# CS 390 Group Project Template
+# Gomoku Game
 
-This is a starting template for the team project for CS 390, Spring 2020.
-
+## Features ##
+* Client-Server Architecture
+* Online PvP
+  * Real time updates
+  * Chat functionality
+* Game history
+  * List of all previously played games  
+  * Move by move history log  
+* Appealing UI
+* Leaderboard
